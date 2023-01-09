@@ -190,6 +190,7 @@ function App() {
             <div class="content-block">
               <textarea
                 class="form-control mb-3"
+                maxLength="40"
                 placeholder="Leave a wave here"
                 id="floatingTextarea"
                 onChange={e => setWaveMsg(e.target.value)}
